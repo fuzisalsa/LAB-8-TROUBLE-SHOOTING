@@ -2,6 +2,8 @@
 13 agustus 2025
 # TROUBLESHOOTING LOGGING DI MIKROTIK [BASIC CONFIGURATION] 
 
+![M](sl.PNG)
+
 **Siswa mampu melakukan troubleshooting pada mikrotik :**    
 # A. Tidak bisa login ke mikrotik    
     1. periksa perkabelan, pastikan tida ada kabel yang terputus atau longgar.  
@@ -14,10 +16,19 @@
         
         Sambil tetap ditahan tombol resetnya, tancapkan power adaptornya.    
         Tunggu kurang lebih 5 detik, atau indikator LED ACT blink sekali, dan lepaskan tombol resetnya.    
-        Biarkan router melanjutkan proses booting, dan router anda sudah kembali ke default konfigurasi.    
+        Biarkan router melanjutkan proses booting, dan router anda sudah kembali ke default konfigurasi.
+     4. Coba sambungkan ulang kabel LAN, atau jika masih, coba ganti kabel nya.  
+        Jangan gunakan ether1, karna secara configurasi default, ether1 adalah WAN,  
+        dan hanya LAN yang diizinkan login oleh firewall.
+
+![M](dua.png)
+
 # B. Tidak bisa akses menggunakan winbox 
     -  disebled jaringan yang mengganggu seperti, interface virtualbox.
-    -  Coba ganti kabel ethernet dan coba port lain
+    -  Coba ganti kabel ethernet dan coba port lain.  
+
+![M](eth.PNG)
+
 # C. Tidak bisa akses melalui telnet
     - pastikan memiliki ip default mikrotik 192.168.88.1/24, jika belum, bisa buat ip static via winbox.  
     - pastikan port yang di masukan benar yaitu port 23.
