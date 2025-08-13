@@ -1,6 +1,6 @@
 # LAB-8-TROUBLE-SHOOTING
 13 agustus 2025
-# Troubleshooting logging di mikrotik [basic configuration]  
+# TROUBLESHOOTING LOGGING DI MIKROTIK [BASIC CONFIGURATION] 
 
 Siswa mampu melakukan troubleshooting pada mikrotik :    
 # A. Tidak bisa login ke mikrotik    
